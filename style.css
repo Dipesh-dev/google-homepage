@@ -1,0 +1,100 @@
+/*for all html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* for container */
+.container{
+    height: 100%;
+    width: 100%;
+}
+/* for navbar and all the li, a and ul tags */
+.top, li, a, ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 6px 5px;
+    color: #666;
+    font-size: 13px;
+}
+/* for links while hover */
+a:hover{
+    text-decoration: underline;
+}
+/* for the nav button */
+.top button{
+    margin: -8px;
+    padding: 9px 15px;
+    background-color:#4584F1;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+/* for the all center elements */
+.center{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* for the input field */
+input{
+    border-radius: 100px;
+    margin: 20px;
+    padding: 8px 100px;
+    border: 1px solid #eee;
+    outline: 0px;
+    font-size: 24px;
+}
+
+input:hover, input:focus{
+    border-radius: 100px;
+    margin: 20px;
+    padding: 8px 100px;
+    border: 0;
+    box-shadow: 1px 0px 4px #bbb;
+    outline: 0px;
+    font-size: 24px;
+}
+/* for the center button */
+.btn button{
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    outline: 0;
+    border: 0;
+    color: #666;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-right: 5px;
+    transition: all .2s;
+}
+
+.btn button:hover{
+    outline: 1px solid #999;
+}
+
+.btn a:hover{
+    text-decoration: none;
+}
+
+/* for the footer */
+.bottom{
+    padding: 0px 20px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+    margin: 0;
+    line-height: 0.3;
+}
+
+.bottom li > a{
+    font-size: 14px;
+}
