@@ -84,17 +84,21 @@ input:hover, input:focus{
     text-decoration: none;
 }
 
+.nepal{
+    display: inline;
+    color: blue;
+}
+
 /* for the footer */
 .bottom{
     padding: 0px 20px;
     display: flex;
-    position: fixed;
     bottom: 0;
     width: 100%;
     justify-content: space-between;
     background-color: #f2f2f2;
     border-top: 1px solid #ddd;
-    margin: 0;
+    margin: 0px;
     line-height: 0.3;
 }
 
@@ -104,8 +108,17 @@ input:hover, input:focus{
 .foot {
     background-color: #f4f4f4;
     padding-left: 35px;
-    padding-bottom: 20px;
-    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-top: 3px;
+    height: 30px;
+    line-height: 1.5;
     color: #888;
     border-top: 1px solid #ddd;
+}
+
+#btn{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
 }
